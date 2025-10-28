@@ -1,0 +1,135 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+}
+.top-h2
+{
+    padding-left: 20px;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+
+main a
+{
+    color: dodgerblue;
+}
+
+main
+{
+    margin-top: 100px;
+    flex: 1;
+}
+section
+{
+    padding: 5px 10px;
+    height: 100%;
+    min-height: 150px;
+    width: 100% - 20px;
+    margin: 20px;
+    background-color: #F9FAFC;
+    border: 1px solid #ccc;
+    /* box-shadow: 1px 1px 5px #0000004D; */
+    border-radius: 5px;
+}
+
+.sec
+{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; */
+}
+.right
+{
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.category
+{
+    margin: 20px;
+    color: black;
+}
+
+.modify-pill-btn {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 50px; /* has to be atleast half its height*/
+}
+.modify-pill-btn:hover {
+    background: orange;
+    color: white;
+}
+
+.cancel-pill-btn {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 50px; /* has to be atleast half its height*/
+}
+.cancel-pill-btn:hover {
+    background: red;
+    color: white;
+}
+
+.bottom
+{
+    padding-left: 20px
+}
+body.mybookings-page.darkmode {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+body.mybookings-page.darkmode main {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  border-color: #333;
+}
+
+body.mybookings-page.darkmode section {
+  background-color: #242424;
+  border: 1px solid #333;
+  color: #ddd;
+}
+
+body.mybookings-page.darkmode .modify-pill-btn {
+  border-color: #ffa726;
+  color: #ffa726;
+}
+body.mybookings-page.darkmode .modify-pill-btn:hover {
+  background: #ffa726;
+  color: white;
+}
+
+body.mybookings-page.darkmode .cancel-pill-btn {
+  border-color: #ef5350;
+  color: #ef5350;
+}
+body.mybookings-page.darkmode .cancel-pill-btn:hover {
+  background: #ef5350;
+  color: white;
+}
+
+body.mybookings-page.darkmode a {
+  color: #66b2ff;
+}
+body.mybookings-page.darkmode a:hover {
+  color: #009dff;
+}
